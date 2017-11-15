@@ -11,9 +11,16 @@
 3. 모니터링이 가능한 API서버를 만들어보자.
 4. 꾸준히 커밋해보자.
 
+## run
+
+```
+sbt assembly
+java -jar ./target/scala-2.12/toy-scala-assembly-0.1.jar
+```
 
 ## reference
 
 [http://reactivex.io](http://reactivex.io)
+[sbt-assembly](https://github.com/sbt/sbt-assembly)
 
 ## by jihyun.song

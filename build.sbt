@@ -14,5 +14,6 @@ mainClass in (Compile, packageBin) := Some("main.scala.Application")
 
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test",
+  "io.reactivex" %% "rxscala" % "0.26.5"
 )
